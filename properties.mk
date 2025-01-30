@@ -339,7 +339,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.opengles.version=196610
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.demo.hdmirotationlock=false \
     persist.sys.sf.color_saturation=1.0 \
     persist.sys.sf.color_mode=2 \
     persist.sys.sf.native_mode=1 \
@@ -368,6 +367,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.high_fps_late_sf_phase_offset_ns=-4000000 \
     debug.sf.high_fps_early_phase_offset_ns=-4000000 \
     debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.demo.hdmirotationlock=false
 
 #Set WCG properties
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.has_wide_color_display=true
