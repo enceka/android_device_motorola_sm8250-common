@@ -39,7 +39,6 @@ libs_add_vendor_suffix = (
 
 libs_remove = (
     'libqsap_sdk',
-    'libwpa_client',
 )
 
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
