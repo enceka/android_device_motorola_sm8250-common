@@ -329,7 +329,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.lineage
+    android.hardware.light-service.lineage
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
