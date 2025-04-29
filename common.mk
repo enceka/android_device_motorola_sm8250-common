@@ -384,6 +384,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
+$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libperfmgr-ext-moto_kona)
+
 # QCOM
 PRODUCT_PACKAGES += \
     libjsoncpp.vendor \
