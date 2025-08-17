@@ -59,7 +59,7 @@ vendor/lib/libqtigef.so
 vendor/lib/soundfx/libmaxxeffect-cembedded.so
 vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
-vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so
+vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so;FIX_SONAME
 
 # Audio Firmware
 vendor/firmware/aw882xx_mono.bin
