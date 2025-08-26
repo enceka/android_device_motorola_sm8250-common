@@ -17,7 +17,7 @@ cc_binary {
         "libbase",
         "libbinder_ndk",
         "libutils",
-        "vendor.lineage.touch-V1-ndk",
+        "vendor.lineage.touch@1.0",
     ],
 }
 
